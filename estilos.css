@@ -50,6 +50,13 @@ nav ul li {
     line-height: 3.5;
 }
 
+nav ul li:hover {
+    background-color: salmon;
+    border-top: none;
+    border: 1px solid;
+    cursor: pointer;
+}
+
 .botones-nav {
     display: flex;
     justify-content: center;
@@ -66,6 +73,10 @@ nav ul li {
     border: 0;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.botones-nav button:hover {
+    background-color: salmon;
 }
 
 
